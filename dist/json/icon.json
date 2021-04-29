@@ -1,0 +1,22 @@
+[
+  { "imgUrl": "./imgs/icons/超市.png", "desc": "超市便利"
+  },
+  { "imgUrl": "./imgs/icons/菜市场.png", "desc": "菜市场"
+  },
+  { "imgUrl": "./imgs/icons/水果店.png", "desc": "水果店"
+  },
+  { "imgUrl": "./imgs/icons/鲜花.png", "desc": "鲜花绿植"
+  },
+  { "imgUrl": "./imgs/icons/医药健康.png", "desc": "医药健康"
+  },
+  { "imgUrl": "./imgs/icons/超市.png", "desc": "家居时尚"
+  },
+  { "imgUrl": "./imgs/icons/超市.png", "desc": "烘培蛋糕"
+  },
+  { "imgUrl": "./imgs/icons/超市.png", "desc": "签到"
+  },
+  { "imgUrl": "./imgs/icons/超市.png", "desc": "大牌免运"
+  },
+  { "imgUrl": "./imgs/icons/超市.png", "desc": "红包套餐"
+  }
+]
