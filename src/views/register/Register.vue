@@ -105,9 +105,9 @@ export default {
     background: #F9F9F9;
     box-sizing: border-box;
     padding:0 .16rem 0 .16rem ;
-    border: 1px solid rgba(0,0,0,0.10);
-    border-radius: 6px;
-    border-radius: 6px;
+    border: .01rem solid rgba(0,0,0,0.10);
+    border-radius: .06rem;
+    border-radius: .06rem;
     height: .48rem;
     margin: 0 .4rem .16rem .4rem;
     .wrapper__input__content{

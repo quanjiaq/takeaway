@@ -42,7 +42,7 @@ export default {
   width:100%;
   padding: 0 .18rem;
   height: 0.49rem;
-  border-top: 1px solid $content-bgcolor;
+  border-top: .01rem solid $content-bgcolor;
   box-sizing: border-box;
   display: flex;
     .docker__item{
@@ -62,7 +62,7 @@ export default {
           font-size: .20rem;
         }
         .docker__title{
-          font-size: 12px;
+          font-size: .12rem;
         }
     }
 }

@@ -87,7 +87,7 @@ export default {
   display: flex;
   height: .49rem;
   line-height: .49rem;
-  border-top: 1px solid $content-bgcolor;
+  border-top: .01rem solid $content-bgcolor;
   background-color: $bg-color;
   position: absolute;
   left: 0;

@@ -26,7 +26,7 @@ export default {
 @import '../style/viriables.scss';
 @import '../style/mixin.scss';
 .shop__item{
-  padding-top: 12px;
+  padding-top: .12rem;
   display: flex;
 
   .shop__item__img{
@@ -36,7 +36,7 @@ export default {
   }
   .shop__content{
     &--bordered{
-      border-bottom: 1px solid $content-bgcolor;
+      border-bottom: .01rem solid $content-bgcolor;
     }
     padding-bottom: .12rem;
     .shop__content__title{
