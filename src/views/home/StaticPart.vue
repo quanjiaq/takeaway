@@ -11,7 +11,7 @@
       <input type="text" class="search__input" placeholder="山姆会员商店优惠商品"/>
     </div>
     <div class="banner">
-      <img class="banner__image" src="/imgs/banner.jpg"/>
+      <img class="banner__image" src="http://www.dell-lee.com/imgs/vue3/banner.jpg"/>
     </div>
     <div class="icons">
       <div
@@ -32,7 +32,7 @@ import axios from 'axios'
 const usestaticPartEffect = () => {
   const data = reactive([])
   const getdata = () => {
-    axios.get('/json/icon.json') // 模拟ajax请求，icon.json放在public/json下面
+    axios.get('./json/icon.json') // 模拟ajax请求，icon.json放在public/json下面
       .then((message) => {
         for (const i in message.data) {
           data.push(message.data[i])
