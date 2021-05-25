@@ -18,7 +18,7 @@
         <template
           v-for="(item, index) in productList"
           :key="index">
-          <div class="product__item" v-if="item.count > 0">
+          <div class="product__item">
             <img class="product__item__img" :src="item.imgUrl"/>
             <div class="product__item__ditail">
               <h4 class="product__item__title">{{item.name}}</h4>
@@ -115,7 +115,8 @@ export default {
     const route = useRoute()
     const shopId = route.params.id
     const { allCount, allPrice, cleanAllProducts, showCart, handleCartShow } = useCartEffect(shopId)
-    const { productList, addItemToCart, deleteItemToCart } = useCartnumEffect()
+    const { productList, addItemToCart, deleteItemToCart } = useCartnumEffect(shopId)
+    console.log(productList)
     // 总数量 allCount, 总价格 allPrice, 商品列表 productList, 商铺ID shopId,
     // 添加商品到购物车的句柄 addItemToCart,删除商品到购物车的句柄 deleteItemToCart,清空购物车的句柄 cleanAllProducts,
     // 控制购物车展示与否的变量 showCart,控制购物车check部分是否展示的句柄 handleCartShow
